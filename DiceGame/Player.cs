@@ -6,7 +6,7 @@ namespace DiceGame
 {
     class Player
     {
-        private readonly String _name;
+        private String _name;
         private int totalScore;
 
         public Player(string name)
