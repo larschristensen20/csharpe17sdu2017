@@ -17,7 +17,7 @@ namespace DiceGame
 
         public String Name
         {
-            get { return _name; }
+            get => _name; 
         }
 
         public int TotalScore
